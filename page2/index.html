@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 2</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      .video-bg {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: -9;
+      }
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .footer {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="video-bg overflow-hidden">
+      <nav class="navbar h-20 flex items-center justify-around">
+        <img src="./assets/logo.png" alt="logo" class="left h-20" />
+        <ul class="text-white flex list-none space-x-16">
+          <li>SHOP</li>
+          <li>TEAMS</li>
+          <li>PARTNERS</li>
+          <li>TICKETS</li>
+          <li>NEWS</li>
+        </ul>
+        <button class="bg-white text-sm font-bold rounded-2xl h-7 px-3">
+          JOIN MEMBER
+        </button>
+      </nav>
+      <video
+        src="./assets/asset.mp4"
+        class="video-bg"
+        autoplay
+        loop
+        muted
+      ></video>
+      <div
+        class="flex text-7xl justify-center items-center text-center mt-44 text-white"
+      >
+        ENDLESS SHADES <br />OF MILAN
+      </div>
+      <div class="footer">
+        <ul class="flex space-x-20 justify-around h-96 mt-28">
+          <li><img src="./assets/nikelogo.png" class="h-36" /></li>
+          <li><img src="./assets/ebaylogo.png" class="h-56 -mt-9" /></li>
+          <li><img src="./assets/emaillogo.png" class="h-36" /></li>
+          <li><img src="./assets/googlelogo.png" class="h-36" /></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
