@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 3</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .video-bg {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: -9;
+      }
+      .optionSym {
+        transform: translateX(35rem);
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <div class="video-bg">
+      <nav class="flex justify-center">
+        <span
+          class="text-white absolute top-10 left-20 text-2xl font-mono font-extralight"
+          >GIVENCHY</span
+        >
+        <ul class="text-white flex space-x-20 justify-center font-thin mt-12">
+          <li>EXPLORE</li>
+          <li>WOMEN</li>
+          <li>MEN</li>
+          <li>ABOUT</li>
+          <li>WAITLIST</li>
+        </ul>
+        <img
+          src="./assets/menusym.png"
+          class="optionSym h-10 absolute top-10"
+          alt="menu"
+        />
+      </nav>
+      <video
+        src="./assets/bg-vid.mp4"
+        autoplay
+        loop
+        muted
+        class="video-bg"
+        style="opacity: 0.3"
+      ></video>
+      <main>
+        <div class="text-white flex flex-col ml-20 mt-20">
+          <div class="text-8xl font-semibold">GIVENCHY<br />BLACK</div>
+          <div class="text-sm max-w-96 mt-10">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </div>
+          <div class="mt-10 flex space-x-5">
+            <button class="bg-white text-black text-sm p-1">
+              DISCOVER BLACK
+            </button>
+            <button class="text-white text-sm p-1 border-2 border-white">
+              JOIN WAITLIST
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
