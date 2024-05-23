@@ -6,3 +6,6 @@ step 2: open terminal and cd to whichever page you want to view.
 step 3: run `npm i`.
 step 4: run `npm start`.
 step 5: navigate to `http://localhost:5173`.
+
+
+You can also check out the screenshot for the pages in the SCREENSHOT folder.
